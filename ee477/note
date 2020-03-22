@@ -1,0 +1,7 @@
+We have test several combinations of associativity and sets, we think 4-ways
+is the best case, area decreases significantly with around 30 percents decrease
+in performance, while area is one of the biggest concern, we choose 4-way as the
+best case.
+
+The chip finish and ptsi timing files are for 4-ways, 16KB. However, although we change the timing
+constraint, the setup time is still violated, have no idead to fix, and no time left.
